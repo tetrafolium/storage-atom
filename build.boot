@@ -20,6 +20,8 @@
  test-cljs {:js-env :phantom
             :exit? true
             :namespaces '#{alandipert.storage-atom.test}}
+ codox {:version +version+
+        :name (name +project+)}
  pom  {:project     'alandipert/storage-atom
        :version     +version+
        :description "ClojureScript atoms backed by HTML5 web storage."
