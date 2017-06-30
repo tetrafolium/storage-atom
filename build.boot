@@ -22,7 +22,8 @@
             :namespaces '#{alandipert.storage-atom.test}}
  codox {:version +version+
         :name (name +project+)
-        :source-paths #{"src"}}
+        :source-paths #{"src"}
+        :language :clojurescript}
  pom  {:project     'alandipert/storage-atom
        :version     +version+
        :description "ClojureScript atoms backed by HTML5 web storage."
