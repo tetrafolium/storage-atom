@@ -11,6 +11,7 @@
 (require '[adzerk.bootlaces :refer :all]
          '[crisptrutski.boot-cljs-test :refer [test-cljs]])
 
+(def +project+ 'alandipert/storage-atom)
 (def +version+ "2.0.1")
 
 (bootlaces! +version+)
